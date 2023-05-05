@@ -81,7 +81,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Os projetos a seguir mostram minhas habilidades e experiência por meio
-          de exemplos. Cada projeto é brevemente descrito alguns ccom links para
+          de exemplos. Cada projeto é brevemente descrito alguns com links para
           repositórios de código. Isso reflete minha capacidade de resolver
           problemas, trabalhar com diferentes tecnologias e gerenciar projetos
           de forma eficaz.

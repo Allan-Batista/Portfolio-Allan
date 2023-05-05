@@ -16,6 +16,9 @@ import {
   figma,
   docker,
   proIot,
+  spTech,
+  udemy,
+  ingles,
   portGabi,
   elixir,
   greenTrash,
@@ -127,6 +130,46 @@ const experiences = [
   },
 ];
 
+const education = [
+  {
+    title: "Analise e Desenvolvimento de Sistemas",
+    company_name: "SPTECH",
+    icon: spTech,
+    iconBg: "#383E56",
+    date: "Agosto 2021 - Novembro 2023",
+    points: [
+      "Faculdade de tecnologia no curso de ADS.",
+      "Curso voltado para aprender as melhores tecnologias e se tornar um bom profissional com um bom socioemocional.",
+      "Criação de projetos semestrais na separação de três sprints.",
+    ],
+  },
+  {
+    title: "ReactJS do basico ao Avançado",
+    company_name: "UDEMY",
+    icon: udemy,
+    iconBg: "#383E56",
+    date: "Janeiro 2022 - março 2022",
+    points: [
+      "Curso voltado ao desenvolvimento de telas com a tecnologia React.JS.",
+      "Com aulas interativas e com o foco em tirar total entendimento do curso.",
+      "Implementando design responsivo e garantindo compatibilidade entre navegadores.",
+      "Desenvolvimento e manutenção de aplicações web usando React.js e outras tecnologias relacionadas .",
+    ],
+  },
+  {
+    title: "Inglês",
+    company_name: "Escola de Idiomas de São Caetano",
+    icon: ingles,
+    iconBg: "#383E56",
+    date: "Janeiro 2015 - Junho 2019",
+    points: [
+      "Curso para aprender inglês",
+      "Voltado para o inglês gramatico e conversador.",
+      "Atualmente estou com um inglês intermediario.",
+    ],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -220,4 +263,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  education,
+  testimonials,
+  projects,
+};

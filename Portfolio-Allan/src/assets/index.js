@@ -22,6 +22,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import proIot from "./company/proIOT.png";
+import spTech from "./company/spTech.jpeg";
+import udemy from "./company/udemy.png";
+import ingles from "./company/ingles.png";
 
 import portGabi from "./portGabi.png";
 import elixir from "./elixir.png";
@@ -51,6 +54,9 @@ export {
   typescript,
   threejs,
   proIot,
+  spTech,
+  udemy,
+  ingles,
   portGabi,
   elixir,
   greenTrash,
