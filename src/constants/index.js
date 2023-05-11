@@ -40,6 +40,17 @@ export const navLinks = [
   },
 ];
 
+export const navLinksExternal = [
+  {
+    title: "Linkedin",
+    source_code_link: "https://www.linkedin.com/in/allan-batista-398958240/",
+  },
+  {
+    title: "GitHub",
+    source_code_link: "https://github.com/Allan-Batista",
+  },
+];
+
 const services = [
   {
     title: "Desenvolvedor Web",

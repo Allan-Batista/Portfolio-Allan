@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useTranslation } from "react-i18next";
 
 const ProjectCard = ({
   index,
@@ -68,11 +69,13 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Meu Trabalho</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projetos.</h2>
+        <p className={`${styles.sectionSubText} `}>{t("work.text1")}</p>
+        <h2 className={`${styles.sectionHeadText}`}>{t("work.text2")}</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -80,11 +83,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Os projetos a seguir mostram minhas habilidades e experiência por meio
-          de exemplos. Cada projeto é brevemente descrito alguns com links para
-          repositórios de código. Isso reflete minha capacidade de resolver
-          problemas, trabalhar com diferentes tecnologias e gerenciar projetos
-          de forma eficaz.
+         {t("work.text3")}
         </motion.p>
       </div>
 

@@ -11,8 +11,13 @@ import { styles } from "../styles";
 import { education } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import { useTranslation } from "react-i18next";
 
 const ExperienceCard = ({ experience }) => {
+
+  const { t } = useTranslation();
+
+
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -57,14 +62,17 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Education = () => {
+
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          O QUE EU ESTUDEI ATÉ AGORA
+          {t("educational.text1")}
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Minha jornada de estudos
+          {t("educational.text2")}
         </h2>
       </motion.div>
 

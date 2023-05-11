@@ -1,0 +1,20 @@
+{
+  "educational.text1": "WHAT I'VE STUDIED SO FAR",
+  "educational.text2": "My study journey",
+  "about.text1": "Introduction",
+  "about.text2": "Overview.",
+  "about.text3": "I'm a software developer with experience in TypeScript and JavaScript and experience in frameworks like ReactJS, Node.js. I learn fast and I collaborate with the team and I like to see firsthand what the customer wants and I do my best to meet the demand that is asked.",
+  "experience.text1": "WHAT I HAVE DONE UNTIL NOW.",
+  "experience.text2": "Work experience.",
+  "hero.text1": "Hello, I'm",
+  "hero.text2": "A developer, creator of",
+  "hero.text3": "user interfaces and web applications",
+  "work.text1":"My work",
+  "work.text2":"Projects.",
+  "work.text3":"The following projects showcase my skills and experience through examples. Each project is briefly described some with links to code repositories. This reflects my ability to solve problems, work with different technologies and manage projects effectively.",
+  "contact.text1": "Get in touch",
+  "contact.text2": "Contact.",
+  "contact.text3": "Your name",
+  "contact.text4": "Your email",
+  "contact.text5": "Your message"
+}

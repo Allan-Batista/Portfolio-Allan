@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { useTranslation } from "react-i18next";
 
 // template_pjtfh3n
 // service_2ott2o9
@@ -67,6 +68,7 @@ const Contact = () => {
         }
       );
   };
+  const { t } = useTranslation();
 
   return (
     <div
@@ -76,8 +78,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Entrar em contato</p>
-        <h3 className={styles.sectionHeadText}>Contato.</h3>
+        <p className={styles.sectionSubText}>{t("contact.text1")}</p>
+        <h3 className={styles.sectionHeadText}>{t("contact.text2")}</h3>
 
         <form
           ref={formRef}
@@ -85,18 +87,18 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Seu nome</span>
+            <span className="text-white font-medium mb-4">{t("contact.text3")}</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Qual é o seu bom nome?"
+              placeholder="Qual é o seu nome?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Seu email</span>
+            <span className="text-white font-medium mb-4">{t("contact.text4")}</span>
             <input
               type="email"
               name="email"
@@ -107,7 +109,7 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Sua mensagem</span>
+            <span className="text-white font-medium mb-4">{t("contact.text5")}</span>
             <textarea
               rows={7}
               name="message"
