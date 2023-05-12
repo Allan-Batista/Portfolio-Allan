@@ -1,4 +1,5 @@
 {
+  "nav.text1": "Developer",
   "educational.text1": "WHAT I'VE STUDIED SO FAR",
   "educational.text2": "My study journey",
   "about.text1": "Introduction",
@@ -9,9 +10,9 @@
   "hero.text1": "Hello, I'm",
   "hero.text2": "A developer, creator of",
   "hero.text3": "user interfaces and web applications",
-  "work.text1":"My work",
-  "work.text2":"Projects.",
-  "work.text3":"The following projects showcase my skills and experience through examples. Each project is briefly described some with links to code repositories. This reflects my ability to solve problems, work with different technologies and manage projects effectively.",
+  "work.text1": "My work",
+  "work.text2": "Projects.",
+  "work.text3": "The following projects showcase my skills and experience through examples. Each project is briefly described some with links to code repositories. This reflects my ability to solve problems, work with different technologies and manage projects effectively.",
   "contact.text1": "Get in touch",
   "contact.text2": "Contact.",
   "contact.text3": "Your name",

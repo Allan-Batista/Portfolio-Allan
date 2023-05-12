@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { navLinks, navLinksExternal } from "../constants";
 import { logo, menu, close, brasil, en } from "../assets";
 import useNav from "./hook/useNav";
+import { useTranslation } from "react-i18next";
 // import Button from "./Button";
 
 const Navbar = () => {
@@ -28,7 +29,10 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const { t } = useTranslation();
+
   return (
+
     <nav
       className={`${
         styles.paddingX
@@ -48,7 +52,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Allan &nbsp;
-            <span className="sm:block hidden"> | Desenvolvedor JS</span>
+            <span className="sm:block hidden"> | {t("nav.text1")} JS</span>
           </p>
         </Link>
 
