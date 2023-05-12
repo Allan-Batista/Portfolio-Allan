@@ -82,18 +82,23 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="flex items-center ml-[50px]">
+        <div className=" ml-[10px]">
           {currentLanguage === "pt" || (
-            <button onClick={() => handleLanguage("en")}>
-              <img width="50px" src={en} /> EN
-            </button>
+            <div className="flex flex-row items-center">
+              <button onClick={() => handleLanguage("en")}>
+                <img width="30px" src={en} />
+              </button>
+              <p className=" ml-[10px]">EN</p>
+            </div>
           )}
 
           {currentLanguage === "pt" && (
-            <button onClick={() => handleLanguage("pt")}>
-              <img width="50px" src={brasil} />
-              PT
-            </button>
+            <div className="flex flex-row items-center">
+              <button onClick={() => handleLanguage("pt")}>
+                <img width="30px" src={brasil} />
+              </button>
+              <p className=" ml-[10px]">PT</p>
+            </div>
           )}
         </div>
 
